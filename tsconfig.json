@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "lib": ["ESNext"],
+      "strict": true,
+      "target": "ESNext",
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "declaration": true,
+      "declarationDir": "dist/@types",
+      "noUnusedParameters": true,
+      "noUnusedLocals": true,
+      "forceConsistentCasingInFileNames": true,
+      "newLine": "lf",
+      "pretty": true
+  }
+}

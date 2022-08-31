@@ -1,0 +1,24 @@
+{
+  "name": "z",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "dist/@types",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "node ./scripts/deleteDist.cjs && tsc",
+    "dev": "node ./scripts/deleteDist.cjs && tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colorette": "^2.0.19",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14"
+  }
+}
